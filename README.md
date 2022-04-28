@@ -185,4 +185,41 @@ The first cluster (Figure 18) created contains customers that spend a lot on Fre
 
 The second cluster (Figure 19) seems to contain customers that have some uniformity in their spending in the categories Grocery, Fresh and Milk where they seem to spend large amounts of money in comparison to the other categories.
 
+*Figure 20: Box – plots for Cluster #2*
+
+![image](https://user-images.githubusercontent.com/82097084/165763987-b0d83577-bc37-4799-9851-52ebd4fd0f30.png)
+
+On average, Cluster #2 (Figure 20) contains costumers that spend more on Grocery and Milk, but without spending huge amounts of money.
+Overall, the clusters created with this method cannot be easily characterized based on how much they spend because they spend on average similar amounts of money on products. 
+So, there is no obvious way they can be grouped in cluster groups. We could point out that Cluster #0 and Cluster #2 spend sufficiently more on some products (#0 on Fresh and #2 on Grocery and Milk) while Cluster #1 has somehow similar spendings between products.
+
+**DBSCAN Clustering**
+
+The last clustering method used in the process of creating costumer segments was DBSCAN Clustering.
+At this stage, it was essential to find the best parameters possible that should be provided to the algorithm. 
+The following plot was created to offer some insights:
+
+*Figure 21: Distance – Points*
+
+![image](https://user-images.githubusercontent.com/82097084/165764213-1d465a26-2533-4616-8f1a-ba8a45b349d7.png)
+
+By finding the elbow point in Figure 21 the decision to set eps hyper-parameter to 1.2 was made. 
+Also, to tune the minimum number of points hyper-parameter the trial-and-error method was used and finally it was set to be 7 points.
+The result of these decisions was the creation of 3 clusters by the DBSCAN algorithm. 
+
+*Figure 22: Box – plots for Cluster #-1*
+
+![image](https://user-images.githubusercontent.com/82097084/165764302-933c3928-e64c-46c9-9430-bc3719a093e9.png)
+
+The first cluster (Figure 22) created by the DBSCAN algorithm seems to contain customers that on average spent average to low amounts of money on products with an exception in Grocery products. 
+Spendings on Delicassen, Frozen are minimum.
+
+*Figure 23: Box – plots for Cluster #0*
+
+![image](https://user-images.githubusercontent.com/82097084/165764406-2f2396cd-d6f4-4329-8e05-d9b5730d8031.png)
+
+The second cluster (Figure 23) created, seems to contain costumers with high spendings on Fresh products while spendings on other goods are average to low.
+
+*Figure 24: Box – plots for Cluster #1*
+
 
