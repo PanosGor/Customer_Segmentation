@@ -222,4 +222,15 @@ The second cluster (Figure 23) created, seems to contain costumers with high spe
 
 *Figure 24: Box – plots for Cluster #1*
 
+![image](https://user-images.githubusercontent.com/82097084/165764596-4b9b3cb3-b8dc-49b6-9771-fd35f0690f23.png)
+
+The third cluster (Figure 24) created contains customers with high spendings on Grocery and relatively high spendings on Detergent Paper and Milk products while spendings on the other goods are low to minimum.
+Overall, from this method it is not possible to group clusters together. Cluster #1 seems to be differentiated because of the relative big spendings on some products.
+While Cluster #-1 and #0 cannot be differentiated easily from each other, Cluster #-1 contains, on average, bigger spenders in comparison to Cluster #0. 
+
+## INSTRUCTIONS:
+
+The user of the code names 'Clustering' should change the path and replace it with a valid one for his path of the dataset.
+The code is running just by clicking run
+Tree classifiers are going to produce some word files in the file of the code and they can be copy and pasted in the following site http://www.webgraphviz.com/ for best visualization.
 
