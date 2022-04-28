@@ -82,5 +82,107 @@ The first cluster (Figure 6) created seems to contain customers that on average 
 ![image](https://user-images.githubusercontent.com/82097084/165761977-f1b8dad4-d2c6-4ac0-b137-a79928de5d9b.png)
 
 
+The second cluster (Figure 7) created contains costumers that spend a lot of money on Fresh products but overall, their spendings are low.
+The costumers of this cluster, on average, spend small amounts of money on goods, except from Fresh products.
+
+*Figure 8: Box – plots for Cluster #2*
+
+![image](https://user-images.githubusercontent.com/82097084/165762158-128a6d6a-7ef4-4e36-bfa1-9815b059e7c5.png)
+
+
+The third cluster (Figure 8) contains costumers that spend a lot of money on Grocery, Milk, and Detergent Paper while their spendings on the other products are relatively low. 
+The customers of this cluster, in general, have a more balanced spending routine.
+Overall, the costumers of the different clusters have similar spending routines on some products (for instance Cluster #0 seems to spend a lot on Fresh while the same happens for the costumers of Cluster #1) 
+but at the same time they are differentiated on their spendings on other products. So, the clusters created could offer valuable insights on the different behaviors.
+
+**Agglomerative Clustering**
+
+The second technique used to segment customers was Agglomerative Clustering.
+To decide the optimal number of clusters – segments needed to be created the Silhouette Coefficients metric was used. The following plot was produced:
+
+*Figure 9: Silhouette Coefficients – Number of Clusters*
+
+![image](https://user-images.githubusercontent.com/82097084/165762433-906cdb68-08d1-438a-b1d3-a4052703c230.png)
+
+Based on this graph, the optimal number of clusters seems to be 6 (with minimum difference in Silhouette Score in comparison to 3 clusters).
+-Silhouette Score: 0.205
+
+Then the clusters were created with the Agglomerative Clustering algorithm.
+For the better understanding of the contents of the clusters, box – plots were used.
+
+*Figure 10: Box – plots for Cluster #0*
+
+![image](https://user-images.githubusercontent.com/82097084/165762568-cb26415d-212a-4ca1-a735-95e659e7b755.png)
+
+The first cluster (Figure 10) created by this clustering technique seems to contain costumers with equally distributed spendings overall. 
+Based on the box – plots, one can observe that they tend to spend more on Grocery, Fresh and Milk products.
+
+*Figure 11: Box – plots for Cluster #1*
+
+![image](https://user-images.githubusercontent.com/82097084/165762732-2027c9cd-e11e-4133-a3ce-c7a29b8e701c.png)
+
+The second cluster (Figure 11) created seems to contain customers that spend low amounts of money on the available (in the dataset) products. 
+Also, their spendings are almost equally distributed between the goods
+
+*Figure 12: Box – plots for Cluster #2*
+
+![image](https://user-images.githubusercontent.com/82097084/165762819-694e5ad4-ff0b-403e-9f76-34885b7f4e9e.png)
+
+The third cluster (Figure 12) created seems to spend a lot of money on Fresh products, while their spendings on the other goods are average to low. 
+
+*Figure 13: Box – plots for Cluster #3*
+
+![image](https://user-images.githubusercontent.com/82097084/165762920-4abf8fb9-768e-430b-be13-782745f5f87f.png)
+
+The fourth cluster (Figure 13) created seems to contain customers that spend a lot on these three categories: Grocery, Milk and Detergents paper with Grocery leading followed by the other two goods. 
+Their spending on other goods are minimum. 
+
+*Figure 14: Box – plots for Cluster #4*
+
+![image](https://user-images.githubusercontent.com/82097084/165763046-f245ec19-b873-4ae5-866b-18203aa68e8b.png)
+
+The costumers of the fifth cluster (Figure 14) spent large amounts of money on Fresh products while their spendings on other products are minimum. 
+
+*Figure 15: Box – plots for Cluster #5*
+
+![image](https://user-images.githubusercontent.com/82097084/165763141-ef66bffc-f0f9-467d-a0d6-b7d6930f759c.png)
+
+The sixth cluster (Figure 15) seems to contain customers that spend a lot on Fresh products while their spendings on the other goods are relatively small. 
+Overall, the customers of clusters #2, #4 and #5 seem to have some common spending patterns. 
+They spend a lot on Fresh while their spending on the other goods is close. Cluster #1 contains customers that spend minimum amounts of money on the available products. 
+Cluster #0 customers have equal spending on average on all the categories.  
+Cluster #3 contains wholesale customers that spend almost exclusively in some categories.
+
+**Gaussian Mixture Clustering**
+
+The third technique used to segment customers was Gaussian Mixture Clustering.
+In order to decide how many clusters should be created the following plots were produced:
+
+*Figure 16: Silhouette Coefficients – Number of Clusters*
+
+![image](https://user-images.githubusercontent.com/82097084/165763336-86ed1d89-a713-4afe-a5d4-c1069ff39c06.png)
+
+*Figure 17: log-likelihood – Number of Clusters*
+
+![image](https://user-images.githubusercontent.com/82097084/165763390-1675443a-6613-4336-94d7-4e157e01db86.png)
+
+For 3 clusters the results were the following:
+- Silhouette Score: 0.26
+- Log-likelihood: -6.86
+
+Based on those diagrams the decision to create 3 clusters was made.
+Then, the clusters were created with the Gaussian Mixture algorithm.
+
+*Figure 18: Box – plots for Cluster #0*
+
+![image](https://user-images.githubusercontent.com/82097084/165763496-8c66c6cf-17bb-4b39-8979-76580c5dfdfb.png)
+
+The first cluster (Figure 18) created contains customers that spend a lot on Fresh products while they tend to spend low amounts of money on the other products.
+
+*Figure 19: Box – plots for Cluster #1*
+
+![image](https://user-images.githubusercontent.com/82097084/165763576-87903999-465e-4293-858e-4760647b395d.png)
+
+The second cluster (Figure 19) seems to contain customers that have some uniformity in their spending in the categories Grocery, Fresh and Milk where they seem to spend large amounts of money in comparison to the other categories.
 
 
