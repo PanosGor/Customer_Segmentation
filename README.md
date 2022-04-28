@@ -15,4 +15,4 @@ The dataset is free of missing values.
 
 ![image](https://user-images.githubusercontent.com/82097084/165760684-44948037-798e-472a-8e47-623b47e8a3a7.png)
 
-Figure 1: Dataset representation [^1]
+[^1: Figure 1: Dataset representation 
