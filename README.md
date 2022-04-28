@@ -13,7 +13,7 @@ Also, there are two more features in the dataset: Channel and Region.
 All the spendings in products are counted in dollars. 
 The dataset is free of missing values.
 
-*Figure 1: Dataset representation *
+*Figure 1: Dataset representation*
 
 ![image](https://user-images.githubusercontent.com/82097084/165760684-44948037-798e-472a-8e47-623b47e8a3a7.png)
 
