@@ -230,7 +230,9 @@ While Cluster #-1 and #0 cannot be differentiated easily from each other, Cluste
 
 ## INSTRUCTIONS:
 
-The user of the code names 'Clustering' should change the path and replace it with a valid one for his path of the dataset.
-The code is running just by clicking run
+The user of the code names 'Clustering' should change the path and replace it with a valid one for his path of the dataset. 
+
+The code is running just by clicking run.
+
 Tree classifiers are going to produce some word files in the file of the code and they can be copy and pasted in the following site http://www.webgraphviz.com/ for best visualization.
 
